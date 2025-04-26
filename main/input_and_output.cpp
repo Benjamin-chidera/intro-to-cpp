@@ -22,5 +22,7 @@ int main(){
 
 int cal(int num1, int num2){
     cout << "Sum is =" << num1 + num2 << endl;
+    cerr << "Error: Something went wrong" << endl;
+    clog << "Info: Something happened" << endl;
     return 0;
 }
